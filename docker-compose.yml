@@ -1,0 +1,7 @@
+version: '2'
+services:
+  nginx:
+    build: .
+    user: '111111112'
+    ports: 
+    - "8080:8080"
