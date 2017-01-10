@@ -1,3 +1,3 @@
 #!/bin/bash
 
-exec nginx -c /etc/nginx.conf
+exec nginx -c /etc/nginx/nginx.conf

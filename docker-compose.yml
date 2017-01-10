@@ -3,5 +3,7 @@ services:
   nginx:
     build: .
     user: '111111112'
+    environment: 
+    - NGINX_FASTCGI_PASS=192.168.99.100
     ports: 
     - "8080:8080"
