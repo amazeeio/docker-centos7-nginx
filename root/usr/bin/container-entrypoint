@@ -1,5 +1,0 @@
-#!/bin/bash
-
-envsubst '\$NGINX_FASTCGI_PASS' < /etc/nginx/nginx.conf.tmpl > /etc/nginx/nginx.conf
-
-exec "$@"
