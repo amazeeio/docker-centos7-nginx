@@ -23,7 +23,7 @@ The included nginx config contains sane values that will make the creation of si
 - root is assumed to be in `/app` (change in site config if you need a subfolder)
 - proxy settings have longer timeouts
 - fastcgi.conf with adapted values is included by default (see `fastcgi.conf` for them)
-- on Port 50000 at path `/nginx_status` there is an nginx status page running, access is only allowed from localhost
+- on Port 50000 at path `/nginx_status` there is an nginx status page running, access is only allowed from localhost and local ip ranges
 
 ## Environment Variables
 
